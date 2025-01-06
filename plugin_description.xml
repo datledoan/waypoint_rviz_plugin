@@ -1,0 +1,9 @@
+<library path="lib/libwaypoint_rviz_plugin">
+  <class name="waypoint_rviz_plugin/WaypointTool"
+         type="waypoint_rviz_plugin::WaypointTool"
+         base_class_type="rviz::Tool">
+    <description>
+      Tool for add waypoint in rviz.
+    </description>
+  </class>
+</library>
