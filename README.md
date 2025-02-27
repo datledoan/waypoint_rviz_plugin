@@ -1,5 +1,5 @@
 # waypoint_rviz_plugin
-This Rviz's plugin allows you to set and save waypoints in the RViz interface and publish them to a ROS topic.
+This Rviz's plugin allows you to set and save waypoints in the RViz interface and publish them to a ROS topic. For example, it can be used with a [simple planner](https://github.com/datledoan/simple_planner) to define a sequence of waypoints for a robot to follow, enabling basic path planning and navigation.
 
 # Publish topic
 geometry_msgs::PoseArray /waypoints
